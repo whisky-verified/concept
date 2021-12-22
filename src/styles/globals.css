@@ -13,6 +13,10 @@
     @apply font-whisky;
   }
 
+  p {
+    @apply font-whisky;
+  }
+
   ul {
     @apply font-whisky;
   }
