@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React from "react";
 import config from "../env/config.json";
 
 export const TopNav = (): React.ReactElement => {
