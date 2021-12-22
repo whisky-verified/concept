@@ -29,7 +29,7 @@ export const Footer = (): React.ReactElement => {
       </div>
       <div className="flex-grow" />
       <Button onClick={fleekClick} className="m-2 p-2">
-        built with fleek
+        deployed with fleek
       </Button>
       <Button onClick={githubClick} className="m-2 p-2">
         github
