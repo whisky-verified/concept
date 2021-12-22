@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      whiskey: ["VT323"],
+      whisky: ["VT323"],
     },
   },
   plugins: [],

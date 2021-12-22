@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-page-custom-font */
+import React from "react";
 import { Html, Head, Main, NextScript } from "next/document";
 
-export default function Document(): JSX.Element {
+export default function Document(): React.ReactElement {
   return (
     <Html>
       <Head>

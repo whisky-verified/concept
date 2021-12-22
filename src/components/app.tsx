@@ -1,12 +1,12 @@
 import React from "react";
-import config from "../env/config.json";
+import { Overview } from "./overview";
+import { TopNav } from "./topnav";
 
 export const App = (): React.ReactElement => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-row">
-        <h1 className="flex-shrink text-6xl hack-type">{config.NAME}</h1>
-      </div>
+    <div className="flex flex-col h-screen">
+      <TopNav />
+      <Overview />
     </div>
   );
 };
